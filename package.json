@@ -1,0 +1,26 @@
+{
+    "name": "npm-security-audit",
+    "version": "1.0.0",
+    "description": "A CLI tool to check outdated packages, security vulnerabilities, and unused dependencies.",
+    "main": "lib/index.js",
+    "bin": {
+        "npm-security-audit": "bin/cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/npm-security-audit"
+    },
+    "keywords": [
+        "npm",
+        "security",
+        "audit",
+        "dependencies",
+        "cli"
+    ],
+    "author": "Darshan Doshi",
+    "license": "MIT",
+    "dependencies": {
+        "depcheck": "^1.4.3",
+        "xlsx": "^0.18.5"
+    }
+}
